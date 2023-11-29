@@ -1,7 +1,7 @@
 import utime
 import machine
 
-# from machine import I2C
+from machine import I2C
 from lcd_api import LcdApi
 from pico_i2c_lcd import I2cLcd
 
