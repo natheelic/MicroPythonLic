@@ -1,10 +1,5 @@
-try:
-    import machine
-    import utime
-
-except ImportError:
-    print("Error: 'machine' module not found. Make sure you are using MicroPython.")
-    exit()
+import machine
+import utime
 
 sdaPIN = machine.Pin(0)
 sclPIN = machine.Pin(1)
